@@ -9,7 +9,6 @@ class SnappyConan(ConanFile):
     topics = ("conan", "snappy", "google", "compressor", "decompressor")
     url = "https://github.com/bincrafters/conan-snappy"
     homepage = "https://github.com/google/snappy"
-    author = "Bincrafters <bincrafters@gmail.com>"
     license = "BSD-3-Clause"
     exports = ["LICENSE.md"]
     exports_sources = ["CMakeLists.txt"]
